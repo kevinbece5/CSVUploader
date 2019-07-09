@@ -1,0 +1,24 @@
+{
+  "name": "csvuploader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinbece5/CSVUploader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinbece5/CSVUploader/issues"
+  },
+  "homepage": "https://github.com/kevinbece5/CSVUploader#readme",
+  "dependencies": {
+    "aws-sdk": "^2.489.0",
+    "uuid": "^3.3.2"
+  }
+}
