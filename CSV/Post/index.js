@@ -20,14 +20,12 @@ exports.handler = async (event, context) => {
     return await new Promise((resolve, reject) => {
         s3.upload(params, function (err, data) {
             if (err) {
-                console.log('err', err);
                 resolve({
                     statusCode: 400,
                     error: `Could not upload`
                 });
 
             } else {
-                console.log(`response`, res);
                 resolve({ statusCode: 200, body: `https://intuit-coding-challenge-kevin.s3-us-west-1.amazonaws.com/csv/${fileName}` });
             }
         });
