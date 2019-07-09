@@ -1,6 +1,7 @@
 # CSVUploader
 ## CRUD operations 
-
+#### AWS Endpoint Link
+    -   https://5qnskfgmx9.execute-api.us-west-1.amazonaws.com/Dev
 ### GET
 #### Route
     /csv/:name
